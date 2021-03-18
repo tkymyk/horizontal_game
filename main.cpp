@@ -3,14 +3,14 @@
 #include <stdexcept>
 #include <string>
 #include <string.h>
-#include<fstream>
-#include<vector>
-#include<sstream>
-#include<unistd.h>
+#include <fstream>
+#include <vector>
+#include <sstream>
+#include <unistd.h>
 #include "sdglib.h"
 using namespace std;
 using namespace SDGLibF;
-char str[] = " - 2D Graphics (61711356 Yuki Takayama) - ";
+char str[] = " - 2D Graphics - ";
 double a,vx1,vx2,vy,f=0;  //a:加速度、vx1:右向き速度、vx2:左向き速度、f:ジャンプ時の初速設定
 double x=-100; //x座標
 double x_position=-100;  //右スクロール時、画面中央に来たときにx座標をこっちに切り替えて画面中央より右に行かないようにした
